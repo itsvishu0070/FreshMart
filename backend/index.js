@@ -53,9 +53,9 @@ const app = express();
 // Connect to Cloudinary
 try {
   await connectCloudinary();
-  console.log("✅ Connected to Cloudinary");
+  console.log("Connected to Cloudinary");
 } catch (err) {
-  console.error("❌ Cloudinary connection failed:", err.message);
+  console.error(" Cloudinary connection failed:", err.message);
 }
 
 // CORS config (Render + localhost for testing)
@@ -92,9 +92,9 @@ const PORT = process.env.PORT || 5000;
 connectDB()
   .then(() => {
     app.listen(PORT, () => {
-      console.log(`🚀 Server is running on port ${PORT}`);
+      console.log(`Server is running on port ${PORT}`);
     });
   })
   .catch((err) => {
-    console.error("❌ Failed to connect to MongoDB:", err.message);
+    console.error("Failed to connect to MongoDB:", err.message);
   });
