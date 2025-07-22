@@ -78,7 +78,7 @@ const MyOrders = () => {
             >
               <div className="flex items-center gap-4">
                 <img
-                  src={`http://localhost:5000/images/${item.product.image[0]}`}
+                  src={`https://freshmart-v07o.onrender.com/images/${item.product.image[0]}`}
                   alt={item.product.name}
                   className="w-20 h-20 object-cover rounded-xl border"
                 />

@@ -19,7 +19,7 @@ const ProductCard = ({ product }) => {
         {/* Image */}
         <div className="flex items-center justify-center h-[140px]">
           <img
-            src={`http://localhost:5000/images/${product.image[0]}`}
+            src={`https://freshmart-v07o.onrender.com/images/${product.image[0]}`}
             alt={product.name}
             className="max-h-full object-contain transition-transform duration-300 group-hover:scale-105"
           />

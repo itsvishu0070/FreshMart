@@ -46,7 +46,7 @@ const ProductList = () => {
                 >
                   <td className="px-6 py-4 flex items-center gap-4">
                     <img
-                      src={`http://localhost:5000/images/${product.image[0]}`}
+                      src={`https://freshmart-v07o.onrender.com/images/${product.image[0]}`}
                       alt="Product"
                       className="w-14 h-14 object-cover rounded-md border"
                     />

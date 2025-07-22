@@ -118,7 +118,7 @@ const Cart = () => {
               >
                 <img
                   className="w-full h-full object-cover"
-                  src={`http://localhost:5000/images/${product.image[0]}`}
+                  src={`https://freshmart-v07o.onrender.com/images/${product.image[0]}`}
                   alt={product.name}
                 />
               </div>
